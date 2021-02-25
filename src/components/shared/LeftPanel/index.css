@@ -1,0 +1,11 @@
+.panel-container {
+    overflow: scroll;
+    width: 10%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 3px 4px #e2e2e2;
+}

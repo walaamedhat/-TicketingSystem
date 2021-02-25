@@ -1,0 +1,9 @@
+.site-layout {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.content{
+    background-color: #eaeaea;
+}

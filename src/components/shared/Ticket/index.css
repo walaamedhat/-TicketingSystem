@@ -1,0 +1,31 @@
+.avatar-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.ticket-avatar{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color: #282c34;
+}
+.black-avatar{
+    background-color: black;
+    color: #ffffff;
+}
+.red-badge{
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+}
+
+.ticket-avatar:hover{
+    cursor: pointer;
+}
