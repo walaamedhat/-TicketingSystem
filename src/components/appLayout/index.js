@@ -12,7 +12,6 @@ import './index.css';
 
 export default function App() {
   const dispatch = useDispatch();
-  // const { userInfo } = useSelector(state => state.user);
   useEffect(()=> {
       dispatch(getTickets())
   });
