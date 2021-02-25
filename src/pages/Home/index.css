@@ -1,0 +1,120 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+}
+.left-container{
+    flex: 1.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.right-container{
+    flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.left-container-header, .right-container-header{
+    margin-top: 50px;
+    color: #13bbc4;
+    text-decoration: underline;
+}
+.right-container-header{
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container-content, .right-container-content{
+    margin-top: 100px;
+    flex-grow: 1;
+}
+.right-container-content{
+    overflow: scroll;
+    height: 200px;
+}
+.left-container-select h3{
+    color: gray;
+}
+.left-container-select select{
+    border: 0;
+    background-color: inherit;
+}
+.left-container-input h3,h5{
+    color: gray;
+}
+.left-container-input input{
+    width: 70%;
+    height: 40px;
+}
+.left-container-footer{
+    align-self: flex-end;
+}
+.left-container-footer input{
+    background-color: #13bbc4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    outline: 0;
+}
+.left-container-footer input:hover{
+    background-color: #21b4c4;
+    padding: 20px 32px;
+}
+.left-container-footer input:disabled{
+    background-color: #0e7179;
+}
+.right-container-header-timer{
+    display: flex;
+    flex: .3;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-container-footer{
+    border-top: 1px solid red;
+}
+.right-container-footer input{
+    width: 100%;
+    min-height: 80px;
+    border: 0;
+    outline: 0;
+}
+.right-container-footer form{
+   display: flex;
+}
+.messageInput{
+    padding-top: 30px;
+    padding-left: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: white;
+    width: 97%;
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+    height: 50px;
+}
+.sendMessageBTN{
+    align-self: center;
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    width: 50px;
+}
+.actionsBTN{
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    color: gray;
+}
+.actionsBTN:hover{
+    cursor: pointer;
+    color: #13bbc4;
+}
+

@@ -1,0 +1,20 @@
+// get tickets
+export const GET_TICKETS = "GET_TICKETS";
+export const GET_TICKETS_SUCCESS = "GET_TICKETS_SUCCESS";
+export const GET_TICKETS_FAIL = "GET_TICKETS_FAIL";
+
+// select ticket
+export const SELECT_TICKET_SUCCESS = "SELECT_TICKET_SUCCESS";
+export const SELECT_TICKET_FAIL = "SELECT_TICKET_FAIL";
+
+// edit ticket
+export const EDIT_TICKET_SUCCESS = "EDIT_TICKET_SUCCESS";
+export const EDIT_TICKET_FAIL = "EDIT_TICKET_FAIL";
+
+// close ticket
+export const CLOSE_TICKET_SUCCESS = "CLOSE_TICKET_SUCCESS";
+export const CLOSE_TICKET_FAIL = "CLOSE_TICKET_FAIL";
+
+// snoozed ticket
+export const SNOOZED_TICKET_SUCCESS = "SNOOZED_TICKET_SUCCESS";
+export const SNOOZED_TICKET_FAIL = "SNOOZED_TICKET_FAIL";
